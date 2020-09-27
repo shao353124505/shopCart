@@ -1,8 +1,10 @@
 <template>
   <div id="app" class="container">
     <main>
+      <div style="height: 70px">
+        <img alt="log" src="./assets/dabingLogo.png" style="height: 100%;width: 100%">
+      </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-        <img alt="log" src="./assets/dabingLogo.png" style="height: 100%;width: 28%">
         <button
           class="navbar-toggler"
           type="button"
@@ -17,16 +19,16 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <router-link to="/" class="nav-link">Home</router-link>
+              <router-link to="/" class="nav-link">主页</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/products" class="nav-link">All Products</router-link>
+              <router-link to="/products" class="nav-link">所有商品</router-link>
             </li>
 <!--            <li class="nav-item">-->
 <!--              <a class="nav-link" href="#">Pricing</a>-->
 <!--            </li>-->
             <li class="nav-item">
-              <router-link to="/about" class="nav-link">About</router-link>
+              <router-link to="/about" class="nav-link">关于大兵</router-link>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -70,19 +72,19 @@
     <footer class="container-fluid footer text-left mt-3">
       <p class="mr-auto">
         Developed by:
-        <strong>Mohammed Ismail</strong>
+        <strong>小草科技有限公司</strong>
       </p>
-      <div style="float:right">
-        <a href="mailto:ikismail7@gmail.com" style="margin-right:10px">
-          <i class="fa fa-envelope-open" aria-hidden="true" style="font-size:20px"></i>
-        </a>
-        <a href="https://github.com/ikismail" target="_blank" style="margin-right:10px">
-          <i class="fa fa-github" aria-hidden="true" style="font-size:20px"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/ikismail7/" target="_blank" style="margin-right:10px">
-          <i class="fa fa-linkedin" aria-hidden="true" style="font-size:20px"></i>
-        </a>
-      </div>
+<!--      <div style="float:right">-->
+<!--        <a href="mailto:ikismail7@gmail.com" style="margin-right:10px">-->
+<!--          <i class="fa fa-envelope-open" aria-hidden="true" style="font-size:20px"></i>-->
+<!--        </a>-->
+<!--        <a href="https://github.com/ikismail" target="_blank" style="margin-right:10px">-->
+<!--          <i class="fa fa-github" aria-hidden="true" style="font-size:20px"></i>-->
+<!--        </a>-->
+<!--        <a href="https://www.linkedin.com/in/ikismail7/" target="_blank" style="margin-right:10px">-->
+<!--          <i class="fa fa-linkedin" aria-hidden="true" style="font-size:20px"></i>-->
+<!--        </a>-->
+<!--      </div>-->
     </footer>
   </div>
 </template>
