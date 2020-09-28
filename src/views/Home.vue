@@ -4,8 +4,8 @@
     <div class="jumbotron jumbotron-fluid main_img">
         <div class="container title">
 <!--          <img alt="Vue logo" src="../assets/dabing.png" width="100px">-->
-          <h3 class="display-5 "><span style="color:#FFFFFF">大兵健身器材南通有限公司网上商城</span></h3>
-          <p style="color:#FFFFFF">欢迎您！</p>
+          <h3 class="display-5 "><span style="color:#FFFFFF">{{$t("carousel.shopping_name")}}</span></h3>
+          <p style="color:#FFFFFF">{{$t("carousel.welcome")}}</p>
         </div>
     </div>
     <nav aria-label="breadcrumb">
@@ -28,13 +28,11 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import BestProducts from "@/components/products/BestProducts.vue";
 import TopProducts from "@/components/products/TopProducts.vue";
 export default {
   name: "home",
   components: {
-    HelloWorld,
     BestProducts,
     TopProducts
   }

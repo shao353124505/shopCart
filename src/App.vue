@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="container">
+    <div class="row">
+      <img alt="log" src="./assets/dabingLogo.png" class="container">
+    </div>
     <main>
-      <div style="height: 70px">
-        <img alt="log" src="./assets/dabingLogo.png" style="height: 100%;width: 100%">
-      </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
         <button
           class="navbar-toggler"
