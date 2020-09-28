@@ -19,16 +19,16 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <router-link to="/" class="nav-link">主页</router-link>
+              <router-link to="/" class="nav-link">{{$t("guide_bar.first_page")}}</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/products" class="nav-link">所有商品</router-link>
+              <router-link to="/products" class="nav-link">{{$t("guide_bar.all_products")}}</router-link>
             </li>
 <!--            <li class="nav-item">-->
 <!--              <a class="nav-link" href="#">Pricing</a>-->
 <!--            </li>-->
             <li class="nav-item">
-              <router-link to="/about" class="nav-link">关于大兵</router-link>
+              <router-link to="/about" class="nav-link">{{$t("guide_bar.about")}}</router-link>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">

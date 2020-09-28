@@ -5,6 +5,7 @@ import store from './store'
 import './registerServiceWorker'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import NProgress from 'nprogress'
+import i18n from "@/plugins/i18n";
 
 // require styles
 import 'swiper/dist/css/swiper.css'
@@ -28,5 +29,6 @@ router.afterEach(() => {
 let vm = new Vue({
   router,
   store,
+  i18n,
   render: h => h(App)
 }).$mount('#app')

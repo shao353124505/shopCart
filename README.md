@@ -11,8 +11,6 @@
 
 Developing a **ShoppingCart (Ecommerce) Application using Vue.js**
 
-**Live Demo** : [Vue-Shopping-Cart](#)
-
 This project was generated with [Vue CLI](https://github.com/vuejs/vue-cli) version **3.x**
 
 ## Functionalitites
