@@ -6,7 +6,12 @@ import './registerServiceWorker'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import NProgress from 'nprogress'
 import i18n from "@/plugins/i18n";
+import "./plugins/components"
 
+import "@/assets/css/common.css";
+import "@/assets/css/reset.css";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 // require styles
 import 'swiper/dist/css/swiper.css'
 import '../node_modules/nprogress/nprogress.css'
